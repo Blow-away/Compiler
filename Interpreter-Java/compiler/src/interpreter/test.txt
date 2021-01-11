@@ -1,0 +1,3 @@
+class A < C {}
+class C < B {}
+class B < A {}
