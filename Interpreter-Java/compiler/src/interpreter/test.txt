@@ -1,3 +1,11 @@
-class A < C {}
-class C < B {}
-class B < A {}
+class A {
+
+}
+class B < A {
+    test(){
+        super.i = 2;
+        print super.i;
+    }
+}
+var b = B();
+b.test();

@@ -8,7 +8,10 @@ import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.List;
 
-public class GenerateAst { // 用于生成抽象语法树Expr.java
+/**
+ * 工具类，生成 Expr 和 Stmt 两个 Visiter 类
+ */
+public class GenerateAst {
     public static void main(String[] args) throws IOException {
         InputStreamReader input = new InputStreamReader(System.in);
         BufferedReader reader = new BufferedReader(input);
