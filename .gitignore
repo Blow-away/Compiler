@@ -35,7 +35,8 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
-/../../../../../:\Github\compiler-master\compiler\.idea/dataSources/
-/dataSources.local.xml
+.idea
+/out/
+/cmake-build-debug/
 # Editor-based HTTP Client requests
 /httpRequests/
