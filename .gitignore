@@ -36,7 +36,8 @@
 /workspace.xml
 # Datasource local storage ignored files
 .idea
-*/out/
-*/cmake-build-debug/
+*.iml
+out/
+cmake-build-debug/
 # Editor-based HTTP Client requests
 /httpRequests/
